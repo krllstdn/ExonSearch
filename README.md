@@ -1,5 +1,5 @@
 # 🧬 Exon Start Prediction in Human Genome Using Deep Learning
-This project implements deep learning models for predicting exon start sites in the Homo sapiens genome using annotated reference data from Ensembl (GRCh38). It features a custom pipeline for parsing GTF annotations, extracting sequence windows from reference FASTA files, and training convolutional neural networks to distinguish exon starts from other intragenic positions.
+This project implements deep learning models for predicting exon start sites in the Homo sapiens genome using annotated reference data from  [Ensembl](https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/dna/) (GRCh38). It features a custom pipeline for parsing GTF annotations, extracting sequence windows from reference FASTA files, and training convolutional neural networks to distinguish exon starts from other intragenic positions.
 
 ### Highlights
 - **Dataset**: One-hot encoded 101/201/301bp windows from chromosomes 1–22, X, Y
